@@ -72,7 +72,7 @@ app.delete('/todos/:id', function (req, res) {
 		todos = _.without(todos, matchedTodo);
 		res.json(matchedTodo);
 	}
-});
+}); 
 
 // PUT /todos/:id
 app.put('/todos/:id', function (req, res) {
